@@ -30,9 +30,9 @@ Considering the single threaded eventloop in node and considering the use of a m
 
 Consequently, http requests will be pushed until _after_ the current operation ends.
 
-In other words as long as there are no deferred tasks such as state is not mutated in promises or timeouts there can be no stale reads on the bank account balance.
+In other words as long as there are no deferred tasks where state mutated such as promises or timeouts there can be no stale reads on the bank account balance.
 
-That said current architecture would prevent switching easily to a proper DB with asynchronous transactions and is pretty bad practice.
+That said current architecture would prevent switching easily to a proper DB with asynchronous transactions and as such it's pretty bad practice.
 
 
 ## Challenge
