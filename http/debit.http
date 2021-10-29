@@ -1,0 +1,38 @@
+# curl --request POST
+#  --url http://localhost:3000/api/v1/debit
+#  --header 'Content-Type: application/json'
+#  --data '{
+#	"account": "12345",
+#	"command": "DEBIT",
+#	"amount": 100
+#}'
+POST http://localhost:3000/api/v1/debit
+Content-Type: application/json
+
+{
+  "account": "12345",
+  "command": "DEBIT",
+  "amount": 100
+}
+
+###
+
+# curl --request POST
+#  --url http://localhost:3000/api/v1/debit
+#  --header 'Content-Type: application/json'
+#  --data '{
+#	"account": "12345",
+#	"command": "CREDIT",
+#	"amount": 100
+#}'
+POST http://localhost:3000/api/v1/debit
+Content-Type: application/json
+
+{
+  "account": "12345",
+  "command": "CREDIT",
+  "amount": 100
+}
+
+###
+

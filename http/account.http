@@ -1,0 +1,6 @@
+# curl --request GET
+#  --url 'http://localhost:3000/api/v1/account?id=12345'
+GET http://localhost:3000/api/v1/account?id=12345
+
+###
+
