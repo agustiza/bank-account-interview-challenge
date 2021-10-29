@@ -17,8 +17,8 @@ Prerequisites:
 - git
 
 ```
-git clone
-cd
+git clone https://github.com/UnGaucho/bank-account-interview-challenge.git
+cd bank-account-interview-challenge
 npm install
 npm test
 npm start
