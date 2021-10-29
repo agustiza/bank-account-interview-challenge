@@ -6,7 +6,7 @@ I was tasked to build a super simple bank account rest api server with a single 
 
 This challenge is meant to be solved very quickly with minimal dependencies and should **NOT** be taken as an example on how to implement a proper service.
 
-There's a few tests mostly covering domain.
+There's a few tests mostly covering domain. There's also curl requests at /http
 
 ### Installation instructions (on GNU/Linux)
 
